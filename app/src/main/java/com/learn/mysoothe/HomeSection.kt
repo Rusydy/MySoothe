@@ -62,7 +62,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
     }
 }
 
-@Preview(showBackground = true, backgroundColor = 0xFFF5F0EE)
+@Preview(showBackground = true, backgroundColor = 0xFFF5F0EE, heightDp = 180)
 @Composable
 fun HomeScreenPreview() {
     MySootheTheme {
