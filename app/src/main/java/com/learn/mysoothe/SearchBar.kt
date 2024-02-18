@@ -34,7 +34,7 @@ fun SearchBar(
         placeholder = {
             Text(
                 text = "Search",
-                style = MaterialTheme.typography.titleLarge
+                style = MaterialTheme.typography.titleMedium
             )
         },
         modifier = modifier
