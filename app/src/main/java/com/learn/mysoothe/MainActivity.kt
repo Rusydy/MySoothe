@@ -3,6 +3,8 @@ package com.learn.mysoothe
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
@@ -47,3 +49,8 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+data class DrawableStringPair(
+    @DrawableRes val drawable: Int,
+    @StringRes val text: Int
+)

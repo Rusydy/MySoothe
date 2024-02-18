@@ -40,10 +40,7 @@ private val alignYourBodyData = listOf(
     R.drawable.ab6_pre_natal_yoga to R.string.ab6_pre_natal_yoga
 ).map { DrawableStringPair(it.first, it.second) }
 
-private data class DrawableStringPair(
-    @DrawableRes val drawable: Int,
-    @StringRes val text: Int
-)
+
 
 @Preview(showBackground = true)
 @Composable
